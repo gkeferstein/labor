@@ -1,0 +1,33 @@
+{
+  "Stoffwechselprofil": {
+    "Leberstoffwechsel": ["AP", "GOT", "GPT", "GGT"],
+    "Mineralstoffe": ["Ferritin", "Magnesium", "Selen", "Zink", "Calcium", "Kalium", "Natrium", "Phosphor", "Chrom", "Kupfer", "Mangan", "Molybdän"],
+    "Schwermetalle": ["Blei", "Cadmium", "Nickel", "Quecksilber"],
+    "Methylierung": ["B2", "B6", "B9", "B12", "Homocystein"],
+    "Gefäße": ["Cholesterin", "Triglyzeride", "HDL", "LDL", "hsCRP", "Lipoprotein(a)", "HbA1c"],
+    "Schilddrüse": ["TSH", "fT3", "fT4"]
+  },
+  "Immunprofil": {
+    "Omega-6-Fettsäuren": ["gamma-Linolensäure (GLA)", "Dihomo-gamma-Linolensäure (DGLA)", "Linolsäure (LA)", "Arachidonsäure (AA)", "Eicosadiensäure", "Docosatetraensäure (DTA)", "Docosapentaen-n6"],
+    "Einfach ungesättigte Fettsäuren (MUFA)": ["Oleinsäure (Omega 9)", "Palmitoleinsäure (Omega 7)", "Gondosäure (Omega 9)", "Nervonsäure (Omega 9)"],
+    "Trans-Fettsäuren": ["trans-Palmitolein", "trans-Öl", "trans-Linol"],
+    "Gesättigte Fettsäuren (SFA)": ["Myristinsäure", "Palmitinsäure", "Stearinsäure", "Arachinsäure", "Behensäure", "Lignocerinsäure"],
+    "Omega-3/6-Balance": ["Omega-3-Index", "Mehrfach ungesättigte Fettsäuren", "Verhältnis Omega-6/Omega-3", "Verhältnis AA/EPA", "Verhältnis LA/DGLA"],
+    "Vitamine & Redox": ["Vitamin D", "Glutathion intrazellulär", "TNF-alpha"],
+    "T-Helferzellen": ["IFN-γ", "IL-4", "IL-2", "IL-10", "IL-17", "TH1/TH2-Ratio"],
+    "Zytokine": ["IL-1b", "IL-6", "TNF-alpha", "IL-8", "IFN-γ", "IL-4", "IL-10"],
+    "Zelluläre Immunfunktion": ["Influenza", "Tetanustoxoid", "CMV", "Varizella zoster", "Candida", "Streptokokken", "mittlerer Funktionsindex"]
+  },
+  "Nervensystemprofil": {
+    "Cortisol-Tagesprofil": ["0 min", "30 min", "1 h", "6 h", "14 h", "CAR"],
+    "Schlafprofil": ["Melatonin (Bettzeit)", "Cortisol (Bettzeit)", "Alpha-Amylase (Bettzeit)"]
+  },
+  "Darmprofil": {
+    "Zytokinprofil (Stuhl)": ["IL-1b", "IL-6", "TNF-a", "IL-8", "IFN-γ", "IL-4", "IL-10", "SigA"],
+    "Entzündung": ["Calprotectin", "EPX", "SigA"],
+    "Enzyme": ["Gallensäuren", "Pankreaselastase"],
+    "Verdauungsrückstände": ["Fett", "Zucker", "Eiweiß", "Wasser"],
+    "Leaky Gut": ["Alpha-1-Antitrypsin"],
+    "Mikrobiotaprofil": ["Mikrobiotaprofil + Kultur"]
+  }
+}
