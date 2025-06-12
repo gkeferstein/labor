@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EinzelparameterAnalyse",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "marker",
+      "analyse"
+    ],
+    "properties": {
+      "marker": {
+        "type": "string",
+        "description": "Name des Laborparameters"
+      },
+      "analyse": {
+        "type": "string",
+        "description": "Ausführliche medizinisch-funktionelle Analyse in Textform"
+      }
+    },
+    "additionalProperties": false
+  }
+}
