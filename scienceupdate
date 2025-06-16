@@ -1,0 +1,8 @@
+{
+  "titel": "string",
+  "relevanz_score": "integer (1-10)",
+  "kurzbegruendung": "string",
+  "moeglicher_nutzen": "string",
+  "link_zur_studie": "url (string)",
+  "pdf_link": "url (string or 'nicht verfügbar')"
+}
