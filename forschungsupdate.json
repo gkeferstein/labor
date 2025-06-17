@@ -1,8 +1,34 @@
 {
-  "title": "Heilung beginnt im Licht der Mitochondrien",
-  "body": "## Einführung\n\nIn einer Welt, die immer schneller wird, liegt die wahre Kraft in der Regeneration...\n\n### Die Kraft der Mitochondrien\n\nDie kleinen Kraftwerke unserer Zellen sind mehr als nur Energielieferanten...",
-  "meta_description": "Ein poetischer Blick auf Mitochondrien und Selbstheilung im Kontext chronischer Erkrankungen.",
-  "seo_keyword": "Mitochondrien Regeneration",
-  "tags": ["mitochondrien", "regenerationsmedizin", "chronische krankheiten", "selbstheilung", "lebensstilmedizin"],
-  "citation": "Mitochondrial dysfunction and the pathogenesis of chronic diseases. Smith J et al. Cell Metab. 2023;28(3):123-135. doi:10.1016/j.cmet.2023.02.001"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MOJO Blogpost Schema",
+  "type": "object",
+  "required": ["title", "body", "meta_description", "seo_keyword", "tags", "citation"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "SEO-optimierter Titel mit emotionaler Tiefe"
+    },
+    "body": {
+      "type": "string",
+      "description": "Der eigentliche Blogtext im Markdown-Format"
+    },
+    "meta_description": {
+      "type": "string",
+      "maxLength": 160,
+      "description": "Kurze Meta-Beschreibung für SEO (max. 160 Zeichen)"
+    },
+    "seo_keyword": {
+      "type": "string",
+      "description": "Ein einzelnes SEO-Schlüsselwort oder eine Schlüsselphrase"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Liste von Tags für WordPress oder SEO"
+    },
+    "citation": {
+      "type": "string",
+      "description": "Vollständige Studienquelle im APA- oder Vancouver-Stil"
+    }
+  }
 }
